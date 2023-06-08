@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Open+Sans:ital@1&display=swap');
+
+header{
+    /* background-color: aqua; */
+    /* height: max-content; */
+    /* position: fixed; */
+    width: 95vw;
+    margin: auto;
+}
+
+
+header img{
+    width: 13rem;
+    height: auto;
+    /* position: fixed; */
+}
+.Hero{
+    width: 95vw;
+   display: flex;
+   margin: auto;
+   background-color: bisque;
+   border-radius: 2rem;
+    /* padding-top: 75px; */
+    /* background-color: black; */
+}
+.txt{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.img img{
+    width: 600px;
+}
+
+.txt h1{
+    font-size: clamp(40px, 4vw, 60px);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rotateImg{
+    transform: rotate(90deg);
+}
+
+.Hero .arrow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    margin-right: 2rem;
+}
+
+.btn button{
+        padding: 1rem 3rem;
+        margin-right: 4rem;
+        border-radius: 2rem;
+       font: bold;
+       font-family: 'Open Sans', sans-serif;
+        color: aliceblue;
+        transition: all 0.5s ease-in-out;
+        border: 2px solid black;
+        font-size: medium;
+}
+
+.btn .first{
+    background-color: brown;
+    color: white;
+}
+
+.btn .second{
+    background-color: white;
+    color: black;
+}
+
+.Hero .second:hover{
+    /* transform: scale(1.1); */
+    background-color: brown;
+    color: aliceblue;
+}
+.Hero .first:hover{
+    /* transform: scale(1.1); */
+    background-color: white;
+    color: black;
+}
